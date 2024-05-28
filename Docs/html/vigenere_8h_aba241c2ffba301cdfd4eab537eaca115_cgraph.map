@@ -1,0 +1,4 @@
+<map id="deszyfruj" name="deszyfruj">
+<area shape="rect" id="node1" title="Funkcja znajduje wartosci liczbowe danych liter i deszyfruje przekazany znak." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node2" href="$szyfrator_8cpp.html#a2ad820f2dbd38743d1bc0f4d4abf0c6e" title="Funkcja znajduje pozycje w alfabecie przekazanego znaku, jest wykorzystywana w funkcji: szyfruj oraz ..." alt="" coords="128,5,269,32"/>
+</map>

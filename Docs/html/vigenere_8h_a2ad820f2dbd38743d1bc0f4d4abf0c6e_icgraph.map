@@ -1,0 +1,5 @@
+<map id="pozycja_w_alfabecie" name="pozycja_w_alfabecie">
+<area shape="rect" id="node1" title="Funkcja znajduje pozycje w alfabecie przekazanego znaku, jest wykorzystywana w funkcji: szyfruj oraz ..." alt="" coords="128,31,269,57"/>
+<area shape="rect" id="node2" href="$szyfrator_8cpp.html#aba241c2ffba301cdfd4eab537eaca115" title="Funkcja znajduje wartosci liczbowe danych liter i deszyfruje przekazany znak." alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node3" href="$szyfrator_8cpp.html#a8474002d6441a513d078cb91fddd685b" title="Funkcja znajduje wartosci liczbowe danych liter i szyfruje przekazany znak." alt="" coords="13,56,73,83"/>
+</map>

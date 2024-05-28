@@ -1,0 +1,17 @@
+﻿  szyfrator.cpp
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(82,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(110,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(177,42): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(180,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(194,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(206,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(213,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(215,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(252,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(270,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(273,34): warning C4244: "=": konwersja z "_Ty" do "int", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+  vigenere.vcxproj -> C:\Users\agata\source\repos\fb21a535-gr32-repo\projekt\vigenere\Debug\vigenere.exe

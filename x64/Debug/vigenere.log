@@ -1,0 +1,11 @@
+﻿  szyfrator.cpp
+C:\Users\agata\OneDrive\Dokumenty\Studia\semestr 1\PPK\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(146,69): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\agata\OneDrive\Dokumenty\Studia\semestr 1\PPK\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(227,2): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\agata\OneDrive\Dokumenty\Studia\semestr 1\PPK\fb21a535-gr32-repo\projekt\vigenere\szyfrator.cpp(273,34): warning C4244: "=": konwersja z "_Ty" do "int", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+  main.cpp
+  Generowanie kodu...
+  vigenere.vcxproj -> C:\Users\agata\OneDrive\Dokumenty\Studia\semestr 1\PPK\fb21a535-gr32-repo\projekt\vigenere\x64\Debug\vigenere.exe

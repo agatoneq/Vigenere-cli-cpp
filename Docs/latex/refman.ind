@@ -1,0 +1,54 @@
+\begin{theindex}
+
+  \item {czytajUstawienia}
+    \subitem {vigenere.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {deszyfruj}
+    \subitem {vigenere.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {odgadnijKlucz}
+    \subitem {vigenere.h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {pobierzZKlucza}
+    \subitem {vigenere.h}, \hyperpage{9}
+  \item {pobierzZPliku}
+    \subitem {vigenere.h}, \hyperpage{10}
+  \item {pozycja\_w\_alfabecie}
+    \subitem {vigenere.h}, \hyperpage{10}
+  \item {przerobPlik}
+    \subitem {vigenere.h}, \hyperpage{11}
+
+  \indexspace
+
+  \item {rozmiarKlucza}
+    \subitem {vigenere.h}, \hyperpage{11}
+
+  \indexspace
+
+  \item {szyfruj}
+    \subitem {vigenere.h}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Ustawienia}, \hyperpage{5}
+
+  \indexspace
+
+  \item {vigenere.h}, \hyperpage{7}
+    \subitem {czytajUstawienia}, \hyperpage{8}
+    \subitem {deszyfruj}, \hyperpage{8}
+    \subitem {odgadnijKlucz}, \hyperpage{9}
+    \subitem {pobierzZKlucza}, \hyperpage{9}
+    \subitem {pobierzZPliku}, \hyperpage{10}
+    \subitem {pozycja\_w\_alfabecie}, \hyperpage{10}
+    \subitem {przerobPlik}, \hyperpage{11}
+    \subitem {rozmiarKlucza}, \hyperpage{11}
+    \subitem {szyfruj}, \hyperpage{12}
+
+\end{theindex}

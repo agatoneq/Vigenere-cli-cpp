@@ -1,0 +1,24 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Indeks klas}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Lista klas}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks plików}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista plików}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Dokumentacja klas}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dokumentacja struktury Ustawienia}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Opis szczegółowy}{5}{subsection.3.1.1}%
+\contentsline {chapter}{\numberline {4}Dokumentacja plików}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku vigenere.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Opis szczegółowy}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dokumentacja funkcji}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}czytajUstawienia()}{8}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}deszyfruj()}{8}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}odgadnijKlucz()}{9}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}pobierzZKlucza()}{9}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}pobierzZPliku()}{10}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}pozycja\_w\_alfabecie()}{10}{subsubsection.4.1.2.6}%
+\contentsline {subsubsection}{\numberline {4.1.2.7}przerobPlik()}{11}{subsubsection.4.1.2.7}%
+\contentsline {subsubsection}{\numberline {4.1.2.8}rozmiarKlucza()}{11}{subsubsection.4.1.2.8}%
+\contentsline {subsubsection}{\numberline {4.1.2.9}szyfruj()}{12}{subsubsection.4.1.2.9}%
+\contentsline {section}{\numberline {4.2}vigenere.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{12}{section.4.2}%
+\contentsline {chapter}{Indeks}{15}{section*.8}%

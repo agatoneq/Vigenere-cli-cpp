@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projekt zaliczeniowy z PPK-SSI: Plik źródłowy vigenere.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Projekt zaliczeniowy z PPK-SSI
+   </div>
+   <div id="projectbrief">Vigen`ere</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('vigenere_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">vigenere.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="vigenere_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#ifndef VIGENERE_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#define VIGENERE_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="vigenere_8h.html#a469e17ceaaea7107043664ab76cbc655">    9</a></span><span class="keyword">enum class</span> <a class="code hl_enumeration" href="vigenere_8h.html#a469e17ceaaea7107043664ab76cbc655">Flaga</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{ kodowanie, dekodowanie, lamanie, inne};</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="struct_ustawienia.html">   16</a></span><span class="keyword">struct </span><a class="code hl_struct" href="struct_ustawienia.html">Ustawienia</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    std::string sciezkaPlikuWejsciowego;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    std::string sciezkaPlikuWyjsciowego;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    std::string sciezkaPlikuZKluczem;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_enumeration" href="vigenere_8h.html#a469e17ceaaea7107043664ab76cbc655">Flaga</a> tryb=Flaga::inne;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">bool</span> <a class="code hl_function" href="vigenere_8h.html#a5c15f43dfb4d565bed7bf7622e7cdcd1">czytajUstawienia</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv, <a class="code hl_struct" href="struct_ustawienia.html">Ustawienia</a>&amp; ustawienia);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="vigenere_8h.html#a7fcb63292081c93ff2b3fff7437d2348">   37</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="vigenere_8h.html#a7fcb63292081c93ff2b3fff7437d2348">pomoc</a>(<span class="keyword">const</span> std::string&amp; nazwaProgramu);</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>std::string <a class="code hl_function" href="vigenere_8h.html#a9899449c6b9fb5e18d9f1cb1a7efae84">pobierzZKlucza</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_ustawienia.html">Ustawienia</a>&amp; ustawienia);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="vigenere_8h.html#ac030f3c1c4ce00b1da7f4be17345f199">   56</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="vigenere_8h.html#ac030f3c1c4ce00b1da7f4be17345f199">przerobPlik</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_ustawienia.html">Ustawienia</a>&amp; ustawienia, std::string&amp; klucz);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">int</span> <a class="code hl_function" href="vigenere_8h.html#a2ad820f2dbd38743d1bc0f4d4abf0c6e">pozycja_w_alfabecie</a>(<span class="keywordtype">char</span> znak);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="keywordtype">char</span> <a class="code hl_function" href="vigenere_8h.html#a8474002d6441a513d078cb91fddd685b">szyfruj</a>(<span class="keywordtype">char</span> znak, <span class="keywordtype">char</span> znak_klucza);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="keywordtype">char</span> <a class="code hl_function" href="vigenere_8h.html#aba241c2ffba301cdfd4eab537eaca115">deszyfruj</a>(<span class="keywordtype">char</span> znak, <span class="keywordtype">char</span> znak_klucza);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>std::string <a class="code hl_function" href="vigenere_8h.html#adcb87ecde7c5a7269e2ceb816f3a5ed0">pobierzZPliku</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_ustawienia.html">Ustawienia</a>&amp; ustawienia);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="vigenere_8h.html#a8ecbc334b8cd64fa2183b98f5f3cfe43">  102</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="vigenere_8h.html#a8ecbc334b8cd64fa2183b98f5f3cfe43">rozmiarKlucza</a>(std::string&amp; zaszyfrowany);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="vigenere_8h.html#a1f1c197508c905cc3b3022aadd5f833b">  112</a></span>std::string <a class="code hl_function" href="vigenere_8h.html#a1f1c197508c905cc3b3022aadd5f833b">odgadnijKlucz</a>(std::string&amp; zaszyfrowany, <span class="keywordtype">int</span> dlugosc_klucza);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="astruct_ustawienia_html"><div class="ttname"><a href="struct_ustawienia.html">Ustawienia</a></div><div class="ttdoc">Struktura zawiera nazwy plikow: wejsciowego, wyjsciowego i pliku z kluczem oraz wybrany tryb....</div><div class="ttdef"><b>Definition:</b> vigenere.h:17</div></div>
+<div class="ttc" id="avigenere_8h_html_a1f1c197508c905cc3b3022aadd5f833b"><div class="ttname"><a href="vigenere_8h.html#a1f1c197508c905cc3b3022aadd5f833b">odgadnijKlucz</a></div><div class="ttdeci">std::string odgadnijKlucz(std::string &amp;zaszyfrowany, int dlugosc_klucza)</div><div class="ttdoc">Funkcja odgaduje jakie slowo zostale uzyte jako klucz do zaszyfrowania tekstu. Funkcja wykorzystuje m...</div></div>
+<div class="ttc" id="avigenere_8h_html_a2ad820f2dbd38743d1bc0f4d4abf0c6e"><div class="ttname"><a href="vigenere_8h.html#a2ad820f2dbd38743d1bc0f4d4abf0c6e">pozycja_w_alfabecie</a></div><div class="ttdeci">int pozycja_w_alfabecie(char znak)</div><div class="ttdoc">Funkcja znajduje pozycje w alfabecie przekazanego znaku, jest wykorzystywana w funkcji: szyfruj oraz ...</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:105</div></div>
+<div class="ttc" id="avigenere_8h_html_a469e17ceaaea7107043664ab76cbc655"><div class="ttname"><a href="vigenere_8h.html#a469e17ceaaea7107043664ab76cbc655">Flaga</a></div><div class="ttdeci">Flaga</div><div class="ttdoc">Unia, ktora przechowuje mozliwe do wybrania tryby. Trybami, jakie mozna wybrac, sa: tryb szyfrowania,...</div><div class="ttdef"><b>Definition:</b> vigenere.h:10</div></div>
+<div class="ttc" id="avigenere_8h_html_a5c15f43dfb4d565bed7bf7622e7cdcd1"><div class="ttname"><a href="vigenere_8h.html#a5c15f43dfb4d565bed7bf7622e7cdcd1">czytajUstawienia</a></div><div class="ttdeci">bool czytajUstawienia(int argc, char **argv, Ustawienia &amp;ustawienia)</div><div class="ttdoc">Funkcja czyta parametry podane przez uzytkownika.</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:9</div></div>
+<div class="ttc" id="avigenere_8h_html_a7fcb63292081c93ff2b3fff7437d2348"><div class="ttname"><a href="vigenere_8h.html#a7fcb63292081c93ff2b3fff7437d2348">pomoc</a></div><div class="ttdeci">void pomoc(const std::string &amp;nazwaProgramu)</div><div class="ttdoc">Funkcja wypisuje komunikat o braku lub niepoprawnosci wpisanych parametrow.</div></div>
+<div class="ttc" id="avigenere_8h_html_a8474002d6441a513d078cb91fddd685b"><div class="ttname"><a href="vigenere_8h.html#a8474002d6441a513d078cb91fddd685b">szyfruj</a></div><div class="ttdeci">char szyfruj(char znak, char znak_klucza)</div><div class="ttdoc">Funkcja znajduje wartosci liczbowe danych liter i szyfruje przekazany znak.</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:118</div></div>
+<div class="ttc" id="avigenere_8h_html_a8ecbc334b8cd64fa2183b98f5f3cfe43"><div class="ttname"><a href="vigenere_8h.html#a8ecbc334b8cd64fa2183b98f5f3cfe43">rozmiarKlucza</a></div><div class="ttdeci">int rozmiarKlucza(std::string &amp;zaszyfrowany)</div><div class="ttdoc">Funkcja znajduje jaka dlugosc ma klucz wykorzystany do zaszyfrowania tekstu. Funkcja wykorzystuje met...</div></div>
+<div class="ttc" id="avigenere_8h_html_a9899449c6b9fb5e18d9f1cb1a7efae84"><div class="ttname"><a href="vigenere_8h.html#a9899449c6b9fb5e18d9f1cb1a7efae84">pobierzZKlucza</a></div><div class="ttdeci">std::string pobierzZKlucza(const Ustawienia &amp;ustawienia)</div><div class="ttdoc">Funkcja wczytuje tekst z podanego pliku wejsciowego z kluczem.</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:43</div></div>
+<div class="ttc" id="avigenere_8h_html_aba241c2ffba301cdfd4eab537eaca115"><div class="ttname"><a href="vigenere_8h.html#aba241c2ffba301cdfd4eab537eaca115">deszyfruj</a></div><div class="ttdeci">char deszyfruj(char znak, char znak_klucza)</div><div class="ttdoc">Funkcja znajduje wartosci liczbowe danych liter i deszyfruje przekazany znak.</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:136</div></div>
+<div class="ttc" id="avigenere_8h_html_ac030f3c1c4ce00b1da7f4be17345f199"><div class="ttname"><a href="vigenere_8h.html#ac030f3c1c4ce00b1da7f4be17345f199">przerobPlik</a></div><div class="ttdeci">bool przerobPlik(const Ustawienia &amp;ustawienia, std::string &amp;klucz)</div><div class="ttdoc">Funkcja odpowiada za wyslanie odpowiednich znakow do odpowiednich funkcji. Funkcja otwiera plik wejsc...</div></div>
+<div class="ttc" id="avigenere_8h_html_adcb87ecde7c5a7269e2ceb816f3a5ed0"><div class="ttname"><a href="vigenere_8h.html#adcb87ecde7c5a7269e2ceb816f3a5ed0">pobierzZPliku</a></div><div class="ttdeci">std::string pobierzZPliku(const Ustawienia &amp;ustawienia)</div><div class="ttdoc">Funkcja wczytuje tekst z pliku wejsciowego i przygotowuje go do uzycia w funkcjach potrzebnych do zla...</div><div class="ttdef"><b>Definition:</b> szyfrator.cpp:155</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="vigenere_8h.html">vigenere.h</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

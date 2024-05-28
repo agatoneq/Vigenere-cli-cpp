@@ -1,0 +1,43 @@
+\hypertarget{vigenere_8h_source}{}\doxysection{vigenere.\+h}
+\mbox{\hyperlink{vigenere_8h}{Idź do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#ifndef VIGENERE\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#define VIGENERE\_H}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{9 \textcolor{keyword}{enum class} \mbox{\hyperlink{vigenere_8h_a469e17ceaaea7107043664ab76cbc655}{Flaga}}}
+\DoxyCodeLine{10 \{ kodowanie, dekodowanie, lamanie, inne\};}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{16 \textcolor{keyword}{struct }\mbox{\hyperlink{struct_ustawienia}{Ustawienia}}}
+\DoxyCodeLine{17 \{}
+\DoxyCodeLine{18     std::string sciezkaPlikuWejsciowego;}
+\DoxyCodeLine{19     std::string sciezkaPlikuWyjsciowego;}
+\DoxyCodeLine{20     std::string sciezkaPlikuZKluczem;}
+\DoxyCodeLine{21     \mbox{\hyperlink{vigenere_8h_a469e17ceaaea7107043664ab76cbc655}{Flaga}} tryb=Flaga::inne;}
+\DoxyCodeLine{22 \};}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{32 \textcolor{keywordtype}{bool} \mbox{\hyperlink{vigenere_8h_a5c15f43dfb4d565bed7bf7622e7cdcd1}{czytajUstawienia}}(\textcolor{keywordtype}{int} argc, \textcolor{keywordtype}{char}** argv, \mbox{\hyperlink{struct_ustawienia}{Ustawienia}}\& ustawienia);}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{37 \textcolor{keywordtype}{void} \mbox{\hyperlink{vigenere_8h_a7fcb63292081c93ff2b3fff7437d2348}{pomoc}}(\textcolor{keyword}{const} std::string\& nazwaProgramu);}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{45 std::string \mbox{\hyperlink{vigenere_8h_a9899449c6b9fb5e18d9f1cb1a7efae84}{pobierzZKlucza}}(\textcolor{keyword}{const} \mbox{\hyperlink{struct_ustawienia}{Ustawienia}}\& ustawienia);}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{56 \textcolor{keywordtype}{bool} \mbox{\hyperlink{vigenere_8h_ac030f3c1c4ce00b1da7f4be17345f199}{przerobPlik}}(\textcolor{keyword}{const} \mbox{\hyperlink{struct_ustawienia}{Ustawienia}}\& ustawienia, std::string\& klucz);}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 }
+\DoxyCodeLine{65 \textcolor{keywordtype}{int} \mbox{\hyperlink{vigenere_8h_a2ad820f2dbd38743d1bc0f4d4abf0c6e}{pozycja\_w\_alfabecie}}(\textcolor{keywordtype}{char} znak);}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{74 \textcolor{keywordtype}{char} \mbox{\hyperlink{vigenere_8h_a8474002d6441a513d078cb91fddd685b}{szyfruj}}(\textcolor{keywordtype}{char} znak, \textcolor{keywordtype}{char} znak\_klucza);}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{83 \textcolor{keywordtype}{char} \mbox{\hyperlink{vigenere_8h_aba241c2ffba301cdfd4eab537eaca115}{deszyfruj}}(\textcolor{keywordtype}{char} znak, \textcolor{keywordtype}{char} znak\_klucza);}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 }
+\DoxyCodeLine{93 std::string \mbox{\hyperlink{vigenere_8h_adcb87ecde7c5a7269e2ceb816f3a5ed0}{pobierzZPliku}}(\textcolor{keyword}{const} \mbox{\hyperlink{struct_ustawienia}{Ustawienia}}\& ustawienia);}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{102 \textcolor{keywordtype}{int} \mbox{\hyperlink{vigenere_8h_a8ecbc334b8cd64fa2183b98f5f3cfe43}{rozmiarKlucza}}(std::string\& zaszyfrowany);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{112 std::string \mbox{\hyperlink{vigenere_8h_a1f1c197508c905cc3b3022aadd5f833b}{odgadnijKlucz}}(std::string\& zaszyfrowany, \textcolor{keywordtype}{int} dlugosc\_klucza);}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}
